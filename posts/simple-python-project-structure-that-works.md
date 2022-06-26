@@ -57,5 +57,22 @@ Scripts are ment to be run while functions/libs are ment to be imported so your 
 
 Functions and components are the main folder of your code, these represent (for the most part) the controller and view (from MVC).
 
-You should have all your internal business logic contained in your functions folder. And by internal I mean that it does not depend on anything else other than it self
+You should have all your internal business logic contained in your functions folder. In other words we can not use any external API or service on this code, rathar we should import another code that will do it for us.
 
+In order to do it the best way you should also import respecting the SOLID `dependency inversion principle`.
+
+## External code
+
+So the code that will use external services should be located in the `utils` folder.
+
+There is one folder/file that is also standardized (in my structure). The `repository`.
+
+It is the code that will handle the interface between python your database.
+
+## Models and Assets
+
+Models is only usefull if you are running (and I recomend) any type of data validation. I personally use the marshmallow library.
+
+Models for the validatios should be stored in the models folder.
+
+Finally assets is the folder to save all sorts of media files such as pictures, videos and csv files.
