@@ -4,13 +4,13 @@ In order to create a good and scalable project we also need a good scalable stru
 
 ```graphql
 ./src/* 
-  ├─ src/assets - media files
-  ├─ src/components - frontend componenets
-  ├─ src/functions/* - internal logic code
-  │  └─ /libs - dont forget to organize your code!
-  ├─ src//utils/* - external logic code
-  │  └─ /repository - connects and deals with database
-  ├─ src//models - data structure
+  ├─ src/assets - # media files
+  ├─ src/components - # frontend componenets
+  ├─ src/functions/* - # internal logic code
+  │  └─ /libs - # dont forget to organize your code!
+  ├─ src//utils/* - # external logic code
+  │  └─ /repository - # connects and deals with database
+  ├─ src//models - # data structure
   .
   .
   .
