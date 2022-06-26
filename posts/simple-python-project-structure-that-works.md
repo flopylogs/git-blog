@@ -3,14 +3,14 @@
 In order to create a good and scalable project we also need a good scalable structure. This simple structure will make your projects easier to maintain and grow.
 
 ```graphql
-project_root
-  ├─ /assets - media files
-  ├─ /components - frontend componenets
-  ├─ /functions - internal logic code
+./src/* 
+  ├─ src/assets - media files
+  ├─ src/components - frontend componenets
+  ├─ src/functions/* - internal logic code
   │  └─ /libs - dont forget to organize your code!
-  ├─ /utils - external logic code
+  ├─ src//utils/* - external logic code
   │  └─ /repository - connects and deals with database
-  ├─ /models - data structure
+  ├─ src//models - data structure
   .
   .
   .
